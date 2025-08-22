@@ -1,0 +1,49 @@
+/* 1 forma de utilizar uma fonte */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* 2 forma de utilizar uma fonte*/
+
+@font-face {
+    font-family: Pacifico;
+    src: url(../assets/fonts/Pacifico/Pacifico.ttf);
+    src: url(../assets/fonts/Pacifico/Pacifico-Regular.ttf);
+
+}
+
+:root {
+    --cor-verde: #2C666E;
+    --cor-cinza-escuro: #0A090B;
+    --cor-branco: #F5F5F5;
+    --cor-verde-escuro: #07393C;
+    --cor-verde-escuro2: #07393C;
+    --cor-cinza: #434245;
+    --borda: 1px solid var(--cor-cinza-escuro);
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+    
+}
+
+*{
+
+padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+
+  
+}
+
+body{
+      background-color: var(--cor-cinza);
+
+
+}
+h1{
+position: absolute;
+z-index: -1;
+opacity: 0;
+
+}
