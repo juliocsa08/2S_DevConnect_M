@@ -38,9 +38,8 @@ form {
 }
 
 form > p{
-    text-transform: uppercase;/*deixa o texto em maiusculo*/
     font-size: var(--tamanho-fonte-sm);
-    color: var(--cor-cinza-escuro3);
+    
 }
 
 form > a, #secao-cadastro > p > a {
@@ -69,7 +68,6 @@ text-decoration: none;
     max-width: 342px;
     background-color: var(--cor-branco);
     border: var(--borda);
-    width: 100%;
 }
 
 main>div>p {
@@ -78,10 +76,33 @@ main>div>p {
 }
 
 #secao-instalacao {
-   
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+}
+
+.campo-upload{
+  display: flex;
+  padding: 15px;
+  background-color: var(--cor-branco);
+  border-radius: 6px;
+  text-align: center;
+  
+}
+
+input[type= file]{
+    display: none;
+
+}
+
+#campo-upload{
+   display: none;
+}
+
+#upload{
+    display: inline-block;
+    width: 100%;
+    background-color: var(--cor-cinza-escuro1);
 }
