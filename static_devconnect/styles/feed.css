@@ -1,0 +1,77 @@
+main{
+   
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.conteiner-flex-publi{
+    background-color: blueviolet;
+    height: 700px;
+    width: 90%;
+    max-width: 900px;
+
+}
+
+#storys{
+   
+   width: 100%;
+   /* height: 150%; */
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   overflow-x: scroll;
+}
+
+#storys::-webkit-scrollbar{
+    width: 0;
+}
+
+.card-story{
+    
+
+
+}
+
+.card-story > button{
+    background-color: transparent;
+    border: none;
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.card-story > button > img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+
+}
+
+#campo-upload{
+    display: none;
+}
+
+#upload {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: var(--cor-cinza-escuro1);
+    color: var(--cor-preto);
+    text-align: center;
+
+}
+.formulario-botao-azul{
+    width: 150px;
+
+
+}

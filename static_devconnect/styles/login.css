@@ -65,11 +65,7 @@ text-decoration: none;
 }
 
 .estilo-formulario {
-    width: 100%;
     max-width: 342px;
-    background-color: var(--cor-branco);
-    border: var(--borda);
-    width: 100%;
 }
 
 main>div>p {

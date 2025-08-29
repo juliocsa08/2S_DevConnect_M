@@ -18,40 +18,43 @@ main>div {
 
 form {
     /* background-color: brown; */
-    display: flex;/*ativa o flex*/
+    display: flex;
+    /*ativa o flex*/
     flex-direction: column;
-    justify-content: center;/*alinha na direcao do flex*/
+    justify-content: center;
+    /*alinha na direcao do flex*/
     align-items: center;
     gap: 25px;
     padding: 3%;
 }
 
-.formulario-campos{
+.formulario-campos {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 5px;
 }
 
-.formulario-botao-azul{
+.formulario-botao-azul {
     width: 100%;
 }
 
-form > p{
+form>p {
     font-size: var(--tamanho-fonte-sm);
-    
-}
-
-form > a, #secao-cadastro > p > a {
- color: var(--cor-azul);
- font-size: var(--tamanho-fonte-sm);
-text-decoration: none;
 
 }
 
-#secao-cadastro > p{
- color: var(--cor-preto);
- font-size: var(--tamanho-fonte-md);
+form>a,
+#secao-cadastro>p>a {
+    color: var(--cor-azul);
+    font-size: var(--tamanho-fonte-sm);
+    text-decoration: none;
+
+}
+
+#secao-cadastro>p {
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-md);
 
 }
 
@@ -64,10 +67,9 @@ text-decoration: none;
 }
 
 .estilo-formulario {
-    width: 100%;
+
     max-width: 342px;
-    background-color: var(--cor-branco);
-    border: var(--borda);
+
 }
 
 main>div>p {
@@ -83,26 +85,31 @@ main>div>p {
     gap: 10px;
 }
 
-.campo-upload{
-  display: flex;
-  padding: 15px;
-  background-color: var(--cor-branco);
-  border-radius: 6px;
-  text-align: center;
-  
+.campo-upload {
+    display: flex;
+    padding: 15px;
+    background-color: var(--cor-branco);
+    border-radius: 6px;
+    text-align: center;
+
 }
 
-input[type= file]{
+input[type=file] {
     display: none;
 
 }
 
-#campo-upload{
-   display: none;
+#campo-upload {
+    display: none;
 }
 
-#upload{
+#upload {
     display: inline-block;
     width: 100%;
+    max-width: 300px;
+    padding: 10px;
     background-color: var(--cor-cinza-escuro1);
+    color: var(--cor-cinza-escuro3);
+    text-align: center;
+
 }
