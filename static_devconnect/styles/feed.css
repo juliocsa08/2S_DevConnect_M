@@ -141,7 +141,7 @@ main {
     border-radius: 50%;
 }
 
-.image-descricao {
+.imagem-publicacao {
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -164,14 +164,20 @@ main {
     
 }
 
-.card-publi>figure {
-    width: 100%;
-    background-color: #ffffff;
+.card-publi>figure {    
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
+.card-publi>figure>button{
+    background-color: transparent;
+    border: none;
+    color: var(--cor-cinza-escuro2);
+    order: 3;
+    margin-left: 15px;
 
+}
 
 .interacoes-publicacao {
     background-color: rgb(255, 255, 255);
@@ -187,6 +193,7 @@ main {
 .interacoes-publicacao>button {
     border: none;
     background-color: transparent;
+    
   
 }
 
@@ -200,6 +207,7 @@ main {
 .card-publi>button {
     margin: 15px 3%;
 }
+
 
 
 
