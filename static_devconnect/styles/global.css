@@ -146,11 +146,35 @@ input {
 @media only screen and (max-width: 485px) {
   #logo-mobile {
       display: initial;
-      /*Volta o valor inicial de exibição*/
+   
   }
 
   #logo-desktop {
       display: none;
   }
+  .card-publi {
+      width: 90%;
+  }
+  
+    #foto-de-perfil {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .info-conta {
+      font-size: 14px; 
+      gap: 50px; 
+     
+    }
+  
+    .publicacao {
+      margin: 10px;
+      font-size: 14px;
+    }
+  }
+  
 
-}
+
+
+
+    

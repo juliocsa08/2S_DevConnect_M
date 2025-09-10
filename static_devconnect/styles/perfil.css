@@ -110,3 +110,16 @@ main{
     border: none;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 485px) {
+    #logo-mobile {
+        display: initial;
+        /*Volta o valor inicial de exibição*/
+    }
+  
+    #logo-desktop {
+        display: none;
+    }   
+  
+  }
