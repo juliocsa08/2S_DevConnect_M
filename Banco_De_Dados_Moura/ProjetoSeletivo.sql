@@ -10,14 +10,14 @@ SELECT * FROM tb_usuario;
 
 
 INSERT INTO tb_publicacao(descricao ,imagem_url, data_publicacao , id_usuario)
-VALUES('Dia chave de kéké' , 'ww.http//Facebook' , '2023/09/07' , 1);
+VALUES('Dia chave de kÃ©kÃ©' , 'ww.http//Facebook' , '2023/09/07' , 1);
 
 SELECT * FROM tb_publicacao;
 
 
 
 INSERT INTO tb_curtida(id_usuario,id_publicacao)
-VALUES(1 , 1);
+VALUES(1 , 2);
 
 SELECT * FROM tb_curtida;
 
@@ -30,6 +30,6 @@ SELECT * FROM tb_comentario;
 
 
 INSERT INTO tb_seguidor(id_usuario_seguir , id_usuario_seguidor)
-VALUES(1 , 1);
+VALUES(1 , 2);
 
 SELECT * FROM tb_seguidor;
